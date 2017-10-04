@@ -1,109 +1,140 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MyPortfolio</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sara Bilmes' Portfolio</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <div class="container">
+  <!-- build:css styles/main.css -->
+  <link rel"stylesheet" href="styles/landing.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <!--[if IE]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container-fluid landing-container">
+
+
       <div class="header">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
+
+        <div class="nav-box"></div>
+        <div class="nav-rectangle"></div>
+
+        <ul class="float-right">
           <li>
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Contact</a>
+            <a href="#"><span class="ion-navicon-round"></span></a>
+            <ul class="hidden-nav-1">
+              <li class="home-icon"><a href="index.html"><span class="ion-ios-home"></span></a></li>
+              <li class="portfolio-icon"><a href="portfolio.html"><span class="ion-ios-briefcase"></span></a></li>
+              <li class="profile-icon"><a href="profile.html"><span class="ion-ios-body"></span></a></li>
+              <li class="contact-icon"><a href="contact.html"><span class="ion-ios-email"></span></a></li>
+            </ul>
           </li>
         </ul>
-        <h3 class="text-muted">MyPortfolio</h3>
+
+            <div class="hidden-nav-2">
+              <div class="home-active"><a href="index.html" >Home</a></div>
+              <div class="portfolio-active"> <a href="portfolio.html">Portfolio</a></div>
+              <div class="profile-active"> <a href="portfolio.com">Profile</a></div>
+              <div class="contact-active"> <a href="contact.html">Contact</a></div>
+            </div>
+
+      </div> <!-- header -->
+
+
+      <div class="landing-words">
+        <div class="row">
+          <div class="col-8">
+            <img class="logo animated pulse infinite" src="images/My-logo-new.png" alt="my logo" href="index.html">
+            <h1 class="main_heading">Web Developer and Designer  </h1>
+            <div class="buttons">
+              <a class="btn btn1" href="portfolio.html">Explore My Projects</a>
+              <a class="btn btn2" href="profile.html">View My Profile</a>
+            </div> <!-- buttons -->
+         </div> <!-- col-8 -->
+       </div> <!-- row -->
+      </div> <!-- landing words -->
+
+      <!-- landing-top -->
+
+
+    <!-- <div class="points">
+
+       <div  class="development">
+         <img class="img-point" src="images/computer-icon.png" alt="development icon">
+         <h2>Development</h2>
+      </div>
+      <div  class="design">
+        <img class="img-point" src="images/design-icon.png" alt="design icon">
+        <h2>Design</h2>
       </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+    </div> -->
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+      <!--<div class="footer">
+        <p>♥ copyright 2017</p>
+      </div>  -->
+    </div> <!--container fluid -->
 
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
-    </div>
-    
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+      </script>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
-</html>
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="/bower_components/jquery/dist/jquery.js"></script>
+      <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
+      <script src="/bower_components/modernizr/modernizr.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+
+      <!-- build:js scripts/plugins.js -->
+      <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+      <!-- endbuild -->
+
+      <!-- build:js scripts/main.js -->
+      <script src="scripts/landing.js"></script>
+      <script src="scripts/main.js"></script>
+
+      <!-- endbuild -->
+    </body>
+    </html>

@@ -11,12 +11,21 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 1.5rem;
+/*  padding-top: 1.5rem;*/
   padding-bottom: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+h1{
+  font-family: 'Dosis', sans-serif;
+}
+
+.container{
+  width:100%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
+
 .marketing,
 .footer {
   padding-right: 1rem;
@@ -25,8 +34,9 @@ body {
 
 /* Custom page header */
 .header {
+  padding-top:1em;
   padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+  /*border-bottom: .05rem solid #e5e5e5;*/
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -34,6 +44,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
+
 }
 
 /* Custom page footer */
@@ -41,27 +52,258 @@ body {
   padding-top: 1.5rem;
   color: #777;
   border-top: .05rem solid #e5e5e5;
+
+}
+.display-3{
+  font-size:1.5em;
 }
 
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 46rem;
-  }
+/*.landing-top{
+
+  height:100%;
+  width:100%;
+  background-color: #201b56;
+  background-color: -webkit-radial-gradient(#305677 80%, #1d3344 20% );
+  background-color: -o-radial-gradient(#305677 80%, #1d3344 20% );
+  background-color: -moz-radial-gradient(#305677 80%, #1d3344 20%) ;
+  background-color: radial-gradient(#305677 80%, #1d3344 5% );
+
+}*/
+
+.landing-container{
+  height:100vh;
+  width:100%;
+  background-color: #231f55;
 }
-.container-narrow > hr {
+
+
+.logo{
+  left:200px;
+  position:relative;
+  top:90px;
+}
+
+.landing-words{
+  top:100px;
+  position:relative;
+
+}
+.main_heading{
+  color:white;
+  font-weight:bold;
+  position:relative;
+  left:200px;
+  top:100px;
+}
+.btn{
+/*position:relative;
+top:200px;
+float:left;
+right:300px;*/
+border:white solid 1px;
+background-color:none;
+position:absolute;
+}
+
+.btn1{
+  left:200px;
+  position:relative;
+  top:130px;
+}
+.btn2{
+  left:200px;
+  position:relative;
+  top:130px;
+}
+
+a{
+  color:white;
+}
+a:hover{
+  color:#563d7c;
+}
+
+
+.points{
+ margin-left:400px;
+
+}
+
+.development{
+margin:1em;
+display:inline-block;
+}
+
+.development h2{
+  display:block;
+}
+
+.design{
+margin:1em;
+display:inline-block;
+
+}
+
+.design h2{
+  display:block;
+}
+
+.nav-two{
+  width:100%;
+  height: 100px;
+  position:relative;
+}
+
+
+
+.ion-navicon-round{
+  color:white;
+  margin-top:2em;
+  position: fixed;
+  top: 50px;;
+  right:1px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  transform: scale(1.5,1.5);
+  /*transition: background-color 300ms ease*/
+  vertical-align: center;
+  z-index: 1;
+}
+
+.hidden-nav-1 span{
+  color:white;
+}
+
+.nav-box{
+  position: fixed;
+  top:0;
+  right:40px;
+  width:150px;
+  height:150px;
+  background-color:#404077;
+  display:none;
+}
+.hidden-nav-1{
+  display:none;
+  position:fixed;
+  right:120px;
+  top:170px;
+  transform: scale(1.5,1.5);
+  line-height: 2em;
+  cursor:pointer;
+  z-index: 1;
+}
+
+
+
+/*.hidden-nav-1:hover + .hidden-nav-2{
+  right:200px;
+  -webkit-transition:all 0.5s;
+  transition:all 0.5s;
+  opacity:1;
+}*/
+
+/*.ion-ios-home:hover + .home-active{
+  right:200px;
+  -webkit-transition:all 0.5s;
+  transition:all 0.5s;
+  opacity:1;
+}
+
+.ion-ios-email:hover + .contact-active{
+  right:200px;
+  -webkit-transition:all 0.5s;
+  transition:all 0.5s;
+  opacity:1;
+}*/
+
+.nav-rectangle{
+  width:150px;
+  height:350px;
+  background-color: #404077;
+  position:fixed;
+  top:0px;;
+  right:40px;
+  display:none;
+}
+
+/*.hidden-nav-2{
+
+  line-height: 3em;
+  position: fixed;
+  top:140px;
+  right:160px;
+  color:white;
+}*/
+
+.home-active{
+  position: fixed;
+  top:150px;
+  right:160px;
+  display:none;
+}
+
+.portfolio-active{
+  position: fixed;
+  top:200px;
+  right:160px;
+  display:none;
+}
+
+.profile-active{
+  position: fixed;
+  top:250px;
+  right:160px;
+  display:none;
+}
+
+.contact-active{
+  position: fixed;
+  top:300px;
+  right:160px;
+  display:none;
+}
+
+.hidden-nav-2 a{
+  background-color:#404077;
+  margin:2px;
+  padding:10px;
+
+
+}
+
+.navigation{
+  z-index:1;
+}
+
+//.ion-ios-home:hover .home-active{
+ // opacity:1;
+//}
+
+
+
+.ion-navicon-round:hover{
+  color:#BB31B0;
+}
+
+
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+.colored_nav{
+  background-color:#305677;
+  height:80px;
+}
+/*.container-narrow > hr {
   margin: 2rem 0;
-}
+}*/
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
-}
+
 
 /* Supporting marketing content */
 .marketing {
@@ -84,8 +326,5 @@ body {
   .header {
     margin-bottom: 2rem;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+
   }
-}

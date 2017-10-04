@@ -178,7 +178,12 @@ gulp.task('default', () => {
   });
 });
 
+
+var gulpDeployOptions = {
+  branch: 'master'
+}
+
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages());
+    .pipe(ghPages(gulpDeployOptions));
 });
