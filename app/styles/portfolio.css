@@ -1,0 +1,284 @@
+
+
+.portfolio-top{
+
+  height:700px;
+  width:100%;
+  background-image: url("../images/development/oil-painting-me.jpg");
+}
+
+.portfolio{
+  margin-top:20px;
+}
+
+/*.development-section{
+ margin-bottom:20px;
+ border-bottom:#201b56 dotted 4px;
+ margin-left:auto;
+
+}
+
+.design-section{
+  float:none;
+}
+.port-img{
+  height:300px;
+  position:relative;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: black solid 1px;
+  margin-bottom:10px;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*.image-div{
+  position:relative;
+  width:50%;
+
+}
+
+.first-img{
+  margin-left:auto;
+}
+
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  bottom:10px;
+  width:200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
+.port-img:hover .port-img{
+  opacity:0.3;
+}
+
+.port-img:hover .middle{
+  opacity:1;
+}
+
+
+.port-img:hover{
+  opacity:0.3;
+}
+
+.port:hover .middle{
+  opacity:1;
+}
+.middle:hover{
+  opacity:1;
+}
+
+.text {
+  background-color: #201b56;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+
+  text-align: center;
+  cursor:pointer;
+}
+
+.portfolio-content{
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.portfolio-top{
+    position:relative;
+}
+.portfolio-headers{
+  text-align: center;
+  color: #d25d56;
+  margin-top:100px;
+
+}
+
+h1{
+font-size: 4em;
+position:relative;
+color:white;
+text-align: center;
+top:325px;
+margin-bottom:400px;
+}
+
+
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  border-bottom:#201b56 dotted 4px;
+  padding-bottom:10px;
+}
+
+.blocjams{
+  color:white;
+  border-bottom:white solid 3px;
+  cursor:pointer;
+}
+
+.blocjams-info{
+  display: none;
+
+}
+
+.port-like-simon{
+  margin-top:200px;
+}
+
+
+
+.development-port .col{
+  text-align:center;
+  opacity:1;
+}
+
+
+.port-photo{
+  height: 500px;
+  width:700px;
+}
+
+p{
+  text-align:center;
+  font-size:2em;
+}
+
+
+
+.portfolio-container{
+
+
+  width:100%;
+
+
+}
+
+.circle-container {
+  width:300px;
+  height:300px;
+  text-align:center;
+  -moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+ border-radius: 50%;
+  overflow:hidden;
+}
+
+.circle{
+min-width:300px;
+max-width:none;
+height:300px;
+margin:0 -100%;
+}
+
+.development-section{
+  border-bottom:#201b56 dotted 4px;
+}
+
+.play-img{
+  transform:scale(0.5);
+  float:left;
+}
+
+.pause-img{
+  transform:scale(0.5);
+  float:left;
+}
+
+.full-img{
+  transform:scale(0.5);
+}
+
+.jam-pics{
+  display:inline;
+}
+
+a{
+  color:#d25d56;
+}
+
+.bloc-jams-img{
+  position:relative;
+}
+
+.bloc-jams-middle{
+  position:absolute;
+  top:35%;
+  left:67%;
+
+}*/
+
+.port-img{
+  height:300px;
+
+}
+
+h1{
+  font-size: 4em;
+  position:relative;
+  color:white;
+  text-align: center;
+  top:325px;
+  margin-bottom:400px;
+  }
+
+  .image-div{
+    text-align: center;
+    width: 429px;
+  }
+
+
+.image-div img{
+  display: block;
+  margin: 0 auto;
+}
+
+.port-img:hover{
+  opacity:0.3;
+}
+
+.text{
+  display:none;
+  background-color: #201b56;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.play-img{
+  width:300px;
+}
+.pause-img{
+  width:300px;
+}
+.full-img{
+  width:500px;
+}
+
+a{
+  color:#158c37;
+}
+
+.words{
+  float:left;
+}
+
+.modal-images{
+  max-width:100%;
+}

@@ -1,0 +1,41 @@
+.contact-top{
+    height:700px;
+    width:100%;
+    background-color:#231f55;
+}
+
+h1{
+    font-size: 4em;
+    position:relative;
+
+    color:white;
+    text-align: center;
+    top:325px;
+    margin-bottom:400px;
+}
+
+/*.contact-container{
+    height:100vh;
+    width:100%;
+    background-color: #231f55;
+}*/
+
+label{
+    color:white;
+    text-align: center;
+}
+
+form{
+   width:500px;
+   margin:0 auto;
+   position:relative;
+
+
+
+
+}
+
+.contact-form{
+    background-color: #231f55;
+    height:100vh;
+}
