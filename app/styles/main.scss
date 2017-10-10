@@ -54,9 +54,6 @@ h1{
   border-top: .05rem solid #e5e5e5;
 
 }
-.display-3{
-  font-size:1.5em;
-}
 
 /*.landing-top{
 
@@ -78,7 +75,7 @@ h1{
 
 
 .logo{
-  left:200px;
+  left:20%;
   position:relative;
   top:90px;
 }
@@ -92,7 +89,7 @@ h1{
   color:white;
   font-weight:bold;
   position:relative;
-  left:200px;
+  left:20%;
   top:100px;
 }
 .btn{
@@ -106,12 +103,12 @@ position:absolute;
 }
 
 .btn1{
-  left:200px;
+  left:20%;
   position:relative;
   top:130px;
 }
 .btn2{
-  left:200px;
+  left:20%;
   position:relative;
   top:130px;
 }
@@ -327,4 +324,10 @@ ul li{
     margin-bottom: 2rem;
   }
 
+  }
+
+  @media (max-width:768px) {
+    .main_heading{
+      font-size: 2em;
+    }
   }

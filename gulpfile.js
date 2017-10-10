@@ -6,6 +6,7 @@ const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
 var ghPages = require('gulp-gh-pages');
+var surge = require('gulp-surge');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -179,11 +180,9 @@ gulp.task('default', () => {
 });
 
 
-var gulpDeployOptions = {
-  branch: 'master'
-}
-
-gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages(gulpDeployOptions));
-});
+gulp.task('deploy', [], function () {
+  return surge({
+    project: './dist',         // Path to your static build directory
+    domain: 'sarabilmes.surge.sh'  // Your domain or Surge subdomain
+  })
+})
